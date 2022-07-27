@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --spidey1: #F2B705;
+    --spidey2: #F29F05;
+    --spidey3: #A60303;
+    --spidey4: #400101;
+    --spidey5: #081226;
+}
+
+@font-face {
+    font-family: minhaFonte;
+    src: url(assets/The\ Amazing\ Spider-Man.ttf);
+}
+
+.logo img{
+    width: 75px;
+    height: 75px;
+}
+
+header .menu {
+    display: flex;  
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--spidey5);
+}
+
+header .menu .itens-menu {
+    display: flex;
+    justify-content: space-around;
+    width: 280px;
+}
+
+ul, a {
+    list-style: none;
+    text-decoration: none;
+    color: var(--spidey1);
+    font-family: minhaFonte;
+    font-size: 1.5rem;
+}
+
+a:hover {
+    cursor: pointer;
+    transition: all .7s ease-in;
+    color: var(--spidey3);
+}
+
+.wrapper {
+    background-color: var(--spidey4);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 76.8vh;
+}
+
+.texto h1 {
+    font-family: minhaFonte;
+    font-size: 5rem;
+    color: var(--spidey2);
+}
+
+.texto h1:hover {
+    color: var(--spidey3);
+    transition: all 1s ease-out;
+    cursor: pointer;
+}
+
+.texto p{
+    color: var(--spidey2);
+    text-align: justify;
+    margin-left: 2rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+img {
+    width: 75%;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--spidey5);    
+}
+
+footer p {
+    font-family: 'Lato', sans-serif;
+    color: var(--spidey1);
+    padding: 7px;
+    font-weight: bold;
+}
+
+@media (max-width: 980px){
+
+    .wrapper {
+        background-color: rebeccapurple;
+    }
+    
+}
