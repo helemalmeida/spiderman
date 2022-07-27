@@ -17,13 +17,13 @@
     src: url(assets/The\ Amazing\ Spider-Man.ttf);
 }
 
-.logo img{
+.logo img {
     width: 75px;
     height: 75px;
 }
 
 header .menu {
-    display: flex;  
+    display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: var(--spidey5);
@@ -35,7 +35,8 @@ header .menu .itens-menu {
     width: 280px;
 }
 
-ul, a {
+ul,
+a {
     list-style: none;
     text-decoration: none;
     color: var(--spidey1);
@@ -69,7 +70,7 @@ a:hover {
     cursor: pointer;
 }
 
-.texto p{
+.texto p {
     color: var(--spidey2);
     text-align: justify;
     margin-left: 2rem;
@@ -87,7 +88,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--spidey5);    
+    background-color: var(--spidey5);
 }
 
 footer p {
@@ -97,10 +98,10 @@ footer p {
     font-weight: bold;
 }
 
-@media (max-width: 980px){
+@media (max-width: 980px) {
 
     .wrapper {
         background-color: rebeccapurple;
     }
-    
+
 }
